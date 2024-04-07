@@ -50,6 +50,9 @@ public class UserServiceImpl implements UserService {
         }
         return user;
     }
+    public void Hello() {
+        System.out.println("Hello");
+    }
 
     @Override
     public boolean isLoggedIn(UserRole role, HttpSession session) {
